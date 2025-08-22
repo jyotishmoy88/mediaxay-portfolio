@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mediaxay Portfolio</title>
+  <meta name="description" content="Mediaxay Portfolio — Full-stack web, mobile, and AI solutions." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Mediaxay Portfolio" />
+  <meta property="og:description" content="Full-stack applications for Web, Mobile, and AI." />
+  <meta property="og:image" content="screenshot-desktop.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jyotishmoy88.github.io/mediaxay-portfolio/" />
+</head>
+<body>
+  <header class="hero">
+    <h1>Mediaxay</h1>
+    <p>Full-Stack Developer • Web & Mobile • AI Solutions</p>
+    <a href="#contact" class="btn">Contact Us</a>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We build reliable, scalable, and business-ready software. Our team specializes in web, mobile, and AI-driven solutions using modern frameworks and cloud-native practices.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Expertise</h2>
+      <ul class="cols">
+        <li><strong>Frontend:</strong> React, Vue.js, HTML, CSS, JS</li>
+        <li><strong>Backend:</strong> Node.js, Laravel, Django, PHP</li>
+        <li><strong>Mobile:</strong> Flutter</li>
+        <li><strong>Database:</strong> MySQL, MongoDB, Firebase</li>
+        <li><strong>Other:</strong> OpenAI API, GitHub, Docker</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>JSMPL – Online Banking System</h3>
+        <p>Secure banking app with user login, transaction history, admin panel. Built with CodeIgniter & MySQL.</p>
+        <a href="https://theupay.com/bank" target="_blank" rel="noopener">Live Demo</a>
+      </div>
+
+      <div class="project">
+        <h3>Mediaxay – IT Services Platform</h3>
+        <p>Laravel platform for showcasing services, handling inquiries, and managing client data.</p>
+        <a href="https://mediaxay.com" target="_blank" rel="noopener">Live Demo</a>
+      </div>
+
+      <div class="project">
+        <h3>Mmart – Multivendor Platform</h3>
+        <p>Multi-vendor service app with Flutter frontend and Laravel backend. Real-time updates and payment integration.</p>
+        <a href="https://mmartweb.mediaxay.com" target="_blank" rel="noopener">Live Demo</a>
+      </div>
+
+      <div class="project">
+        <h3>Mediaxay Portfolio</h3>
+        <p>This very portfolio — clean, responsive, and deployable on GitHub Pages.</p>
+        <a href="https://jyotishmoy88.github.io/mediaxay-portfolio/" target="_blank" rel="noopener">Live Demo</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:services@mediaxay.com">services@mediaxay.com</a></p>
+
+      <!-- Formspree contact form (replace FORM_ID with your Formspree form ID) -->
+      <form action="https://formspree.io/f/mzzvnrao" method="POST" class="contact-form">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="_replyto" type="email" required />
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <input type="hidden" name="_subject" value="New message from Mediaxay Portfolio" />
+        <button type="submit" class="btn">Send Message</button>
+        <p class="note">Tip: To receive messages, replace <code>FORM_ID</code> with your Formspree form ID and submit the form once to verify.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Mediaxay. All rights reserved.</p>
+  </footer>
+</body>
+</html>
